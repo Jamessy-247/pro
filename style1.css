@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(61, 194, 235), rgb(255, 255, 255)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.password{
+    border-radius: 3px;
+    box-shadow: inset;
+
+}
+.submit{
+    margin-left: 20%;
+    margin-top: 2px;
+    width: 100px;
+    background-color: rgb(150, 180, 80);
+    border-radius: 3px;
+    border: 0ch;
+}
+.submit:hover{
+    background-color: aqua;
+}
